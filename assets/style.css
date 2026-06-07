@@ -206,6 +206,10 @@ a { color: inherit; text-decoration: none; }
   background: rgba(8, 10, 8, .55);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  /* 日本語の改行を文節境界（<wbr>）でのみ許可し、単語の途中で割れないようにする */
+  word-break: keep-all;
+  line-break: strict;
+  overflow-wrap: anywhere;
 }
 .page__body p + p { margin-top: 1.1em; }
 
