@@ -8,9 +8,8 @@ GitHub Pages にそのまま置けば動きます。ランニングコストは 
 ```
 .
 ├── index.html            TOP（モック再現）
-├── about.html            ABOUT US（TBD）
+├── about.html            ABOUT US
 ├── artworks.html         ART WORKS（TBD）
-├── event.html            EVENT（TBD）
 ├── 404.html              Not Found ページ
 ├── CNAME                 → steganography.tokyo（GitHub Pages 用）
 ├── favicon.svg
@@ -20,7 +19,7 @@ GitHub Pages にそのまま置けば動きます。ランニングコストは 
     └── bg.jpg            背景写真（最適化済 / 約140KB）
 ```
 
-CONTACT は X（https://x.com/Stegano_tokyo21）へ直接リンクしています。
+CONTACT は X（https://x.com/Stegano_tokyo21）、EVENT は Luma（https://luma.com/bc0jp8yx）へ直接リンクしています。
 
 ## ローカル確認
 
