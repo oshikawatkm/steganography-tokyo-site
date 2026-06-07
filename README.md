@@ -9,12 +9,8 @@ GitHub Pages にそのまま置けば動きます。ランニングコストは 
 .
 ├── index.html            TOP（モック再現）
 ├── about.html            ABOUT US（TBD）
-├── exhibition.html       EXHIBITION（TBD）
-├── publication.html      PUBLICATION（TBD）
-├── photography.html      PHOTOGRAPHY（TBD・左上カテゴリ）
-├── lightning.html        LIGHTNING（TBD・左上カテゴリ）
-├── print.html            PRINT（TBD・左上カテゴリ）
-├── tokyo.html            TOKYO（TBD・左上カテゴリ）
+├── artworks.html         ART WORKS（TBD）
+├── event.html            EVENT（TBD）
 ├── 404.html              Not Found ページ
 ├── CNAME                 → steganography.tokyo（GitHub Pages 用）
 ├── favicon.svg
