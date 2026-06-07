@@ -187,13 +187,27 @@ a { color: inherit; text-decoration: none; }
   font-weight: 500;
   letter-spacing: .14em;
   color: var(--ink-dim);
+  text-shadow: 0 2px 16px rgba(0, 0, 0, .6);
 }
 .page__tbd {
   font-size: clamp(3rem, 9vw, 7rem);
   font-weight: 600;
   letter-spacing: .02em;
   margin-top: .1em;
+  text-shadow: 0 2px 22px rgba(0, 0, 0, .55);
 }
+.page__body {
+  margin-top: 1.2rem;
+  max-width: 54ch;
+  padding: 1.1rem 1.35rem;
+  font-size: clamp(.95rem, 1.4vw, 1.08rem);
+  line-height: 1.95;
+  color: var(--ink);
+  background: rgba(8, 10, 8, .55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.page__body p + p { margin-top: 1.1em; }
 
 /* ---- staggered load animation -------------------------------- */
 @media (prefers-reduced-motion: no-preference) {
